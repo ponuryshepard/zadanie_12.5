@@ -1,0 +1,69 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Merienda+One|Oswald');
+
+body {
+	background: linear-gradient(to left, #0099FF, #99FF00);;
+	font-family: 'Merienda One', cursive;
+	color: white;
+}
+
+main {
+	max-width: 1900px;
+}
+
+
+h1 {
+	text-align: center;
+        margin: 100px 0;
+        font-size: 80px;
+}
+
+.box {
+	width: 800px;
+	margin: 60px auto;
+	text-align: center;
+
+}
+
+h2 {
+	font-size: 35px;
+	margin-bottom: 75px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.buttons {
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+	margin-top: 75px;
+}
+
+a, button {
+	display: inline-block;
+	text-align: center;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        line-height: 35px;
+        padding: 0;
+        font-size: 23px;
+        font-family: 'Merienda One', cursive;
+}
+
+a:hover, button:hover {
+	background-color: white;
+	color: #4CCC7F;
+	cursor: pointer;
+}
+
+a {	
+	width: 218px;
+        height: 37px;
+}
+
+button {	
+	width: 220px;
+        height: 45px;
+        margin-bottom: 10px;
+}
